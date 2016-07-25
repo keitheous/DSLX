@@ -1,0 +1,121 @@
+
+      body {
+
+      font-family: "Raleway", "Muli", Arial, sans-serif;
+      font-size: 20px;
+      color: #000000;
+      background-image: url("landingpagepurple.png");
+      display: block;
+  }
+
+ .maintext {
+  	width: 80%;
+  	margin: 0 auto;
+  	padding-top: 10%;
+  	text-align: center;
+  }
+
+
+  .welcome {
+  	font-family: "Raleway", "Muli", Arial, sans-serif;
+  	text-decoration: none;
+  	font-size: 60px;
+  }
+
+
+.newcomer {
+
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  width: 200px;
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  margin: 5px;
+}
+
+ .newcomer a:link, a:visited {
+  display: inline;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+   color: #ffffff;
+  width: 200px;
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  margin: 5px;
+
+ }
+
+.newcomer:hover{
+  display: inline-block;
+  background-color: #19C600;
+  color: #ffffff;
+   width: 200px;
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  margin: 5px;
+ }
+
+
+
+.local {
+
+
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  width: 200px;
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  margin: 5px;
+}
+
+ .local a:link, a:visited {
+  display: inline;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+   color: #ffffff;
+  width: 200px;
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  margin: 5px;
+
+ }
+
+.local:hover{
+  display: inline-block;
+  background-color: #0075EA;
+  color: #ffffff;
+  width: 200px;
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  margin: 5px;
+ }
+
+.tell {
+	font-size: 14px;
+}
