@@ -4,7 +4,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :firstname
       t.string :surname
       t.string :email
-      t.password_digest :password
+      t.string :password_digest
       t.string :bgcolor
       t.string :textcolor
       t.string :fontsize
