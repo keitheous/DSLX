@@ -9,7 +9,66 @@
     </div>
   </nav>
 
-  <h1>Hello <%= current_user.firstname %>, </h1>
+  <div class="container">
+    <br>
+    <p id="pref">Please select your preferences</p>
+    <div id="color-bg" class="row">
+       <p> 1.Pick a colour</p>
+       <div class="col s6 boxes bg" id="pink"></div>
+       <div class="col s6 boxes bg" id="green"></div>
+       <div class="col s6 boxes bg" id="blue"></div>
+       <div class="col s6 boxes bg" id="yellow"></div>
+    </div>
+
+    <div id="font-size" class="row">
+      <p> 2.Pick a font size</p>
+      <div class="col s6 boxes fs" id="medium"><p>Small</p></div>
+      <div class="col s6 boxes fs" id="larger"><p>Medium</p></div>
+      <div class="col s6 boxes fs" id="x-large"><p>Large</p></div>
+      <div class="col s6 boxes fs" id="xx-large"><p>X-Large</p></div>
+   </div>
+
+     <div id="font-type" class="row">
+       <p> 3.Pick a font type</p>
+       <div class="col s6 boxes ft" id="opendyslexic"><p>OpenDyslexic</p></div>
+       <div class="col s6 boxes ft" id="cursive"><p>Helvetica</p></div>
+       <div class="col s6 boxes ft" id="times"><p>Arial</p></div>
+       <div class="col s6 boxes ft" id="verdana"><p>Verdana</p></div>
+    </div>
+
+    <div id="font-color" class="row">
+      <p> 4.Please pick a font colour</p>
+      <div class="col s6 boxes fc" id="brown"><p>Brown</p></div>
+      <div class="col s6 boxes fc" id="lightg"><p>Green</p></div>
+      <div class="col s6 boxes fc" id="navy"><p>Navy</p></div>
+      <div class="col s6 boxes fc" id="black"><p>Black</p></div>
+    </div>
+
+    <div id="line-space" class="row">
+      <p> 5.Please pick a line-spacing </p>
+       <div class="col s6 boxes ls" id="small-line"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
+       <div class="col s6 boxes ls" id="medium-line"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
+       <div class="col s6 boxes ls" id="large-line"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
+       <div class="col s6 boxes ls" id="x-large-line"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
+   </div>
+
+   <div id="text-space" class="row">
+     <p> 6.Please pick a text-spacing</p>
+      <div class="col s6 boxes ts" id="small-text">The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</div>
+      <div class="col s6 boxes ts" id="medium-text">The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</div>
+      <div class="col s6 boxes ts" id="large-text">The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</div>
+      <div class="col s6 boxes ts" id="x-large-text">The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</div>
+  </div>
+
+  <div id="buttons">
+    <h1> Thank You <%= current_user.firstname %> </h1>
+    <p> Your preferences have been saved! </p>
+    <a href="/users" class="waves-effect btn">Restart</a>
+     <!-- <button id="submit-btn" class="waves-effect btn">Submit</button> -->
+  </div>
+</div>
+
+
 
 <% else %>
 
