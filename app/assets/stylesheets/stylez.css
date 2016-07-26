@@ -1,11 +1,10 @@
 
-      body {
-
-      font-family: "Raleway", "Muli", Arial, sans-serif;
-      font-size: 20px;
-      color: #000000;
-      background-image: url("landingpagepurple.png");
-      display: block;
+  body {
+    font-family: "Raleway", "Muli", Arial, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    background-image: url("landingpagepurple.png");
+    display: block;
   }
 
  .maintext {
