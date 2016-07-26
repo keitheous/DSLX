@@ -9,6 +9,15 @@ body {
      display: block;
    }
 
+.blue-bg {
+  background-color: #00a8ff;
+  height: 100vh;
+  margin:0;
+}
+
+#mobile-demo {
+  color: black;
+}
 
 
 
@@ -76,5 +85,5 @@ span.highlight {
 
   .row {
 
-    padding-top: 80px;
+    padding-top: 30px;
   }
