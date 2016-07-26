@@ -4,11 +4,19 @@ body {
      font-family: "Raleway", "Muli", Arial, sans-serif;
      font-size: 20px;
      color: #FFFFFF;
-     background-color: #00a8ff;
      background-size: 100%;
      display: block;
    }
 
+.blue-bg {
+  background-color: #00a8ff;
+  height: 100vh;
+  margin:0;
+}
+
+#mobile-demo {
+  color: black;
+}
 
 .maintext {
  width: 30%;

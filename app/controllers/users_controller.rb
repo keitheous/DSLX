@@ -31,7 +31,8 @@ class UsersController < ApplicationController
     @url = params[:url]
     parse_page = Nokogiri::HTML(open(@url))
 
-    @content = parse_page.css('div').text
+    @header = parse_page.css('h1').text
+    @content = parse_page.css('p').text
   end
 
 end
