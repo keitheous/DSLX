@@ -1,0 +1,17 @@
+<nav>
+  <div class="nav-wrapper">
+    <a href="/users" class="brand-logo"><i class="material-icons left">home</i></a>
+  </div>
+</nav>
+
+<div class="container">
+  <h1> Hello <%= current_user.firstname %>, </h1>
+
+  <form class="col s6 offset-s6" action="/users/url" method="post">
+    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+
+    <input type="text" name="url">
+    <button>Search</button>
+  </form>
+
+</div>

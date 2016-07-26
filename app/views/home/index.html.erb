@@ -1,0 +1,56 @@
+<nav>
+  <div class="nav-wrapper">
+    <a href="/" class="brand-logo">DSLX</a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <% if logged_in? %>
+        <li><a href="/logout"><i class="material-icons left">exit_to_app</i>Logout</a></li>
+      <% else %>
+        <li><a href="/users/new"><i class="material-icons left">favorite</i>Sign Up</a></li>
+        <li><a class="modal-trigger" href="#modal"><i class="material-icons left">person</i>Login</a></li>
+      <% end %>
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+      <% if logged_in? %>
+        <li><a href="/logout"><i class="material-icons left">exit_to_app</i>Logout</a></li>
+      <% else %>
+        <li><a href="/users/new"><i class="material-icons left">favorite</i>Sign Up</a></li>
+        <li><a class="modal-trigger" href="#modal"><i class="material-icons left">person</i>Login</a></li>
+      <% end %>
+    </ul>
+  </div>
+</nav>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+ <form class="col s6 offset-s6" action="/login" method="post">
+  <div class="modal-content">
+      <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+
+      <div class="row">
+         <div class="input-field col s12">
+           <input id="email" type="email" name="email" class="validate">
+           <label for="email">Email</label>
+         </div>
+      </div>
+
+      <div class="row">
+         <div class="input-field col s12">
+           <input id="password" type="password" name="password" class="validate">
+           <label for="password">Password</label>
+         </div>
+      </div>
+
+      <div class="row">
+         <div class="input-field col s12">
+           <button class=" modal-action modal-close waves-effect waves-green btn">LOGIN</button>
+         </div>
+     </div>
+   </div>
+ </form>
+</div>
+
+ <div class="maintext">
+   <%= link_to image_tag("logo.png") %>
+   <p>We are a Dyslexic-friendly web converter and we love you very much!</p>
+ </div>
