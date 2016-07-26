@@ -4,11 +4,20 @@
 
 }
 
+
+
 body {
-    //  font-family: OpenDyslexic, "Raleway", "Muli", Arial, sans-serif;
+    // font-family: OpenDyslexic, "Raleway", "Muli", Arial, sans-serif;
      font-size: 20px;
      color: #222222;
      background-color: #FFFFFF;
+   }
+
+   .opendysfont {
+     font-family: OpenDyslexic;
+   }
+   span.opendysfont {
+     font-family: OpenDyslexic;
    }
 
 .blue-bg {
@@ -88,4 +97,61 @@ span.highlight {
   .row {
 
     padding-top: 30px;
+  }
+
+  .input-field {
+
+    input {
+      font-size: 25px;
+      font-color: #D450FF;
+    }
+
+    label {
+      font-size: 25px !important;
+        font-color: #D450FF;
+    }
+  }
+
+.row {
+  button {
+    margin: auto;
+  }
+}
+
+
+.input-field label {
+  color: #D450FF;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #D450FF;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #D450FF;
+  box-shadow: 0 1px 0 0 #D450FF;
+}
+/* valid color */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #D450FF;
+  box-shadow: 0 1px 0 0 #D450FF;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #D450FF;
+  box-shadow: 0 1px 0 0 #D450FF;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #D450FF;
+}
+
+.input-field input[type=password].invalid {
+  border-bottom: 1px solid #D450FF;
+  box-shadow: 0 1px 0 0 #D450FF;
+}
+
+  .input-field input[type=email].invalid {
+    border-bottom: 1px solid #D450FF;
+    box-shadow: 0 1px 0 0 #D450FF;
   }
