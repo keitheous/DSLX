@@ -1,3 +1,9 @@
+span.formtext {
+  font-family: Raleway;
+  font-size: 30px;
+  background-color: #FFCCCC;
+}
+
 .boxes {
   height: 200px;
   width:20em;
@@ -106,6 +112,10 @@
   font-size: xx-large;
 }
 
+#OpenDyslexic {
+  font-family: OpenDyslexic;
+}
+
 #cursive {
   font-family: cursive;
 }
@@ -144,4 +154,20 @@
 
 #x-large-text {
   letter-spacing:8px;
+}
+
+.thankyou {
+  width: 300px;
+}
+
+span.thanks {
+  font-family: OpenDyslexic;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+span.download {
+  font-size: 20px;
+  margin-top: 2px;
+  font-family: OpenDyslexic;
 }

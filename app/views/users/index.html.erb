@@ -1,5 +1,5 @@
 <% if logged_in? %>
-
+<div class="opendysfont">
   <nav>
     <div class="nav-wrapper">
       <ul class="right">
@@ -8,12 +8,16 @@
       </ul>
     </div>
   </nav>
+</div>
+
 
   <div class="container">
     <br>
-    <p id="pref">Please select your preferences</p>
+    <span class="formtext">
+    <p id="pref">Please select your preferences</p></span>
+
     <div id="color-bg" class="row">
-       <p> 1.Pick a colour</p>
+        <span class="formtext"> <p> 1.Pick a colour</p> </span>
        <div class="col s6 boxes bg" id="pink"></div>
        <div class="col s6 boxes bg" id="green"></div>
        <div class="col s6 boxes bg" id="blue"></div>
@@ -21,7 +25,7 @@
     </div>
 
     <div id="font-size" class="row">
-      <p> 2.Pick a font size</p>
+    <span class="formtext">  <p> 2.Pick a font size</p> </span>
       <div class="col s6 boxes fs" id="medium"><p>Small</p></div>
       <div class="col s6 boxes fs" id="larger"><p>Medium</p></div>
       <div class="col s6 boxes fs" id="x-large"><p>Large</p></div>
@@ -29,15 +33,15 @@
    </div>
 
      <div id="font-type" class="row">
-       <p> 3.Pick a font type</p>
-       <div class="col s6 boxes ft" id="opendyslexic"><p>OpenDyslexic</p></div>
+       <span class="formtext"><p> 3.Pick a font type</p></span>
+       <div class="col s6 boxes ft" id="OpenDyslexic"><p>OpenDyslexic</p></div>
        <div class="col s6 boxes ft" id="cursive"><p>Helvetica</p></div>
        <div class="col s6 boxes ft" id="times"><p>Arial</p></div>
        <div class="col s6 boxes ft" id="verdana"><p>Verdana</p></div>
     </div>
 
     <div id="font-color" class="row">
-      <p> 4.Please pick a font colour</p>
+    <span class="formtext">  <p> 4.Please pick a font colour</p> </span>
       <div class="col s6 boxes fc" id="brown"><p>Brown</p></div>
       <div class="col s6 boxes fc" id="lightg"><p>Green</p></div>
       <div class="col s6 boxes fc" id="navy"><p>Navy</p></div>
@@ -45,7 +49,7 @@
     </div>
 
     <div id="line-space" class="row">
-      <p> 5.Please pick a line-spacing </p>
+    <span class="formtext"><p> 5.Please pick a line-spacing </p> </span>
        <div class="col s6 boxes ls" id="small-line"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
        <div class="col s6 boxes ls" id="medium-line"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
        <div class="col s6 boxes ls" id="large-line"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
@@ -53,7 +57,7 @@
    </div>
 
    <div id="text-space" class="row">
-     <p> 6.Please pick a text-spacing</p>
+     <span class="formtext"><p> 6.Please pick a text-spacing</p></span>
       <div class="col s6 boxes ts" id="small-text">The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</div>
       <div class="col s6 boxes ts" id="medium-text">The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</div>
       <div class="col s6 boxes ts" id="large-text">The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</div>
@@ -61,11 +65,19 @@
   </div>
 
   <div id="buttons">
-    <h1> Thank You <%= current_user.firstname %> </h1>
-    <p> Your preferences have been saved! </p>
-    <a href="/users" class="waves-effect btn">Restart</a>
-     <!-- <button id="submit-btn" class="waves-effect btn">Submit</button> -->
+    <center>
+      <span class="thanks"> Thank You, <%= current_user.firstname %>!
+      <p> Your preferences have been saved! </p></span>
+    <div class="thankyou">
+    <%= link_to image_tag("heart.png") %>
   </div>
+<span class="download">Click to start downloading the plug-in!<br>
+<br>
+<a class="waves-effect waves-light btn-large blue"><i class="material-icons left">cloud</i>Add to Google Chrome</a></span>
+
+  </span>
+  </center>
+    </div>
 </div>
 
 
