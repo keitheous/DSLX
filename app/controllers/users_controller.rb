@@ -13,6 +13,7 @@ class UsersController < ApplicationController
     @user.surname = params[:lastname]
     @user.email = params[:email]
     @user.password = params[:password]
+    @user.bgcolor = params[:bgcolor]
     if @user.save
       session[:user_id] = @user.id
       redirect_to '/users'
@@ -33,6 +34,14 @@ class UsersController < ApplicationController
 
     @header = parse_page.css('h1').text
     @content = parse_page.css('p').text
+  end
+
+  def test
+    @user = User.find_by(id: session[:user_id])
+    @user.bgcolor = params[:bgcolor]
+    if @user.save
+      render json: @user.to_json
+    end
   end
 
 end
