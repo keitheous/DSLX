@@ -25,6 +25,7 @@ include:
 * On the selection progress, CSS changes are implemented to the next question using JQuery, making the questionnaire dynamic and engaging. example:
 
 |Questions| 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|
 |Attributes| Background Color | Font Type | Text Color | Text Size | Text Spacing | Line Height |
 |User's Selection| Green | Verdana | Blue | 80px | 30px | 55px |
 |CSS Implementation | Green | Green, Verdana | Green, Verdana, Blue | Green, Verdana, Blue, 80px | Green, Verdana, Blue, 80px, 30px | Green, Verdana, Blue, 80px, 30px, 55px |
@@ -37,6 +38,7 @@ include:
 
 ## Team Members
 Name | Role | Profiles
+---|---|---|---
 Hui Min Yau | Marketing Strategy / Research Lead | [linkedin](linkedin.com/in/huiminthehappy)|
 Jessica Wu | Market Feasibility/ Research | [linkedin](linkedin.com/in/jeswu)|
 Farhang Dehzad | Product Management/ Research | [linkedin](linkedin.com/in/farhangdehzad),  [github](github.com/farhang87)
