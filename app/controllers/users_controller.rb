@@ -14,13 +14,12 @@ class UsersController < ApplicationController
     @user.email = params[:email]
     @user.password = params[:password]
     if User.exists?(email: params[:email])
-     redirect_to '/'
+     flash[:error] = "Sorry this email has been taken. Please try with another email."
+     redirect_to '/users/new'
     else
       if @user.save
         session[:user_id] = @user.id
         redirect_to '/users'
-      else
-        redirect_to '/'
       end
     end
   end

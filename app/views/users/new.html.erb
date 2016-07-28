@@ -15,6 +15,11 @@
  </div>
 
 <div id="sign-up-form" class="container">
+  <% if flash[:error] %>
+   <p id="flash-notice"> <%= flash[:error] %> </p>
+   <%= javascript_tag "$('#flash_notice').effect('highlight',{},1000);" %>
+ <% end %>
+ <% flash[:error] = nil %>
 
   <form class="col s6 offset-s6" action="/users" method="post">
        <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
