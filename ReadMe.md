@@ -1,5 +1,5 @@
 # DSLX
-###### helping dyslexcis read with ease
+###### helping dyslexcis [read](http://geon.github.io/programming/2016/03/03/dsxyliea) with ease
 ---
 In conjunction with HIC2016's Hacking Health (Hackathon), which aimed to mix hackers and unique technical experts with healthcare professionals to solve problems faced by the Medical Industry ,team DSLX embarked upon a journey to build an internet browser extension that reformats web pages so that Dyslexics can read with ease.
 
@@ -9,7 +9,7 @@ Over 2 Million Australians suffers from Dyslexia. Current existing tools fail to
 > I am slow, but I'm not lazy. I see things different, but I'm not the problem. I am a symptom of an inadequate system.
 >I am dyslexic. I am 700 million. STRONG.
 
->Who do not have access to the web, the way you do, cannot [see](http://geon.github.io/programming/2016/03/03/dsxyliea) the way you do.
+>Who do not have access to the web, the way you do, cannot see the way you do.
 >So make me a web tool, like how you make those cool motorized wheelchairs.
 
 This is an ode to dyslexia.
