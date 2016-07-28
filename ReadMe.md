@@ -57,4 +57,6 @@ Keith Chong | Full Stack | [linkedin](https://www.linkedin.com/in/keitheous), [g
 
 ---
 
+We won second place and this was an awesome team. Special thanks to all the Judges and Mentors. Without you, non of this is possible.
+
 Thank you for visiting this repo =)
