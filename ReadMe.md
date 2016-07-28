@@ -18,10 +18,11 @@ include:
 * AJAX
 * Postgresql
 
+
 # Techncal Stand Point (MVP)
-1. Users can sign up and log in. A secure password is assigned using bcrypt.
-2. Upon signing up, users are taken through a series of questionnaire to pick their preferences in background color, text color, font type, font size, line length and line spacing, which will be saved to User Presets.
-3. On the selection progress, CSS changes are implemented to the next question using JQuery, making the questionnaire dynamic and engaging. example:
+* Users can sign up and log in. A secure password is assigned using bcrypt.
+* Upon signing up, users are taken through a series of questionnaire to pick their preferences in background color, text color, font type, font size, line length and line spacing, which will be saved to User Presets.
+* On the selection progress, CSS changes are implemented to the next question using JQuery, making the questionnaire dynamic and engaging. example:
 
 |Questions| 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|
@@ -31,9 +32,11 @@ include:
 |---|---|---|---|---|---|---|
 |CSS Implementation | Green | Green, Verdana | Green, Verdana, Blue | Green, Verdana, Blue, 80px | Green, Verdana, Blue, 80px, 30px | Green, Verdana, Blue, 80px, 30px, 55px |
 
-4. Next, these information is stored into the database using an AJAX call in the form of object. User is notified that the presets are saved.
+* Next, these information is stored into the database using an AJAX call in the form of object. User is notified that the presets are saved.
 
-5. When a user enters a url into the search bar, the Nokogiri Gem scraps the raw data (HTML) off the page. The presets stored in the form of CSS is then implemented onto this HTML page and is rendered for simplicity.
+* When a user enters a url into the search bar, the Nokogiri Gem scraps the raw data (HTML) off the page. The presets stored in the form of CSS is then implemented onto this HTML page and is rendered for simplicity.
+
+
 
 ## Team Members
 Name | Role | Profiles
@@ -45,3 +48,7 @@ David Liu  | Medical Student | [linkedin](linkedin.com/in/david-liu-20188443), [
 Cheng Chua | Front End | [linkedin](linkedin.com/in/chuaccheng), [github](github.com/chuaccheng)
 Christopher Lee | Full Stack | [linkedin](linkedin.com/in/hanernlee), [github](github.com/hanernlee)
 Keith Chong | Full Stack | [linkedin](linkedin.com/in/keitheous), [github](github.com/keitheous)
+
+---
+
+Thank you for visiting this repo =)
