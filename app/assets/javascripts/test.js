@@ -76,11 +76,11 @@ $( document ).ready(function() {
     if (line == "small-line") {
       lineSpace = "1";
     } else if (line == "medium-line") {
-      lineSpace = "2";
+      lineSpace = "1.5";
     } else if (line == "large-line") {
-      lineSpace = "3";
+      lineSpace = "2";
     } else {
-      lineSpace = "4";
+      lineSpace = "2.5";
     }
 
     $('.ts').css({
@@ -98,13 +98,13 @@ $( document ).ready(function() {
     text = $(this)[0].id;
 
     if (text == "small-text") {
-      lineSpace = "1px";
+      textSpace = "1px";
     } else if (text == "medium-text") {
-      lineSpace = "2px";
+      textSpace = "2px";
     } else if (text == "large-text") {
-      lineSpace = "3px";
+      textSpace = "3px";
     } else {
-      lineSpace = "4px";
+      textSpace = "4px";
     }
 
     $('#text-space').hide();
@@ -114,9 +114,11 @@ $( document ).ready(function() {
 
   $('#submit-btn').on('click', function() {
     console.log('submit clicked');
+    console.log(textSpace);
+
     $.ajax({
       url: '/users/test',
-      data: { bgcolor: bgColor, fonttype: fontType, fontcolor: fontColor, linespace: lineSpace, textspace: textSpace },
+      data: { bgcolor: bgColor, fonttype: fontType, fontcolor: fontColor, linespace: lineSpace, textspace: textSpace, fontsize: fontSize },
       dataType: 'json',
       method: 'POST'
     }).done(function() {

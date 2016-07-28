@@ -1,0 +1,17 @@
+<% if current_user.linespace == "1" %>
+  <div id="small-line">
+    <%= render partial: "textspace" %>
+  </div>
+<% elsif current_user.linespace == "1.5" %>
+  <div id="medium-line">
+    <%= render partial: "textspace" %>
+  </div>
+<% elsif current_user.linespace == "2" %>
+  <div id="large-line">
+    <%= render partial: "textspace" %>
+  </div>
+<% elsif current_user.linespace == "2.5" %>
+  <div id="x-large-line">
+    <%= render partial: "textspace" %>
+  </div>
+<% end %>

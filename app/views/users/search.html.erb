@@ -1,21 +1,25 @@
-<div class="opendysfont">
-<nav>
-  <div class="nav-wrapper">
-    <ul class="right">
-      <li><a href="/users"><i class="material-icons left">home</i>Home</a></li>
-      <li><a href="/logout"><i class="material-icons left">exit_to_app</i>Logout</a></li>
-    </ul>
+<% if logged_in? %>
+  <div class="opendysfont">
+    <nav>
+      <div class="nav-wrapper">
+        <ul class="right">
+          <li><a href="/users"><i class="material-icons left">home</i>Home</a></li>
+          <li><a href="/logout"><i class="material-icons left">exit_to_app</i>Logout</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <form class="col s6 offset-s6" action="/users/url" method="post">
+        <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+
+        <input id="web-search" type="text" name="url">
+        <button id="search-btn" class="btn">Search</button>
+      </form>
+    </div>
   </div>
-</nav>
+<% else %>
 
-<div class="container">
+<h1>Sorry not logged in</h1>
 
-  <form class="col s6 offset-s6" action="/users/url" method="post">
-    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
-
-    <input id="web-search" type="text" name="url">
-    <button id="search-btn" class="btn">Search</button>
-  </form>
-
-</div>
-</div>
+<% end %>
