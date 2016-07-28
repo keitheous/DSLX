@@ -47,13 +47,13 @@ include:
 # Team Members
 Name | Role | Profiles
 ---|---|---|---
-Hui Min Yau | Marketing Strategy / Research Lead | [linkedin](www.linkedin.com/in/huiminthehappy), [email](huiminthehappy@gmail.com)|
-Jessica Wu | Market Feasibility/ Research | [linkedin](www.linkedin.com/in/jeswu), [email](jjgqwu@gmail.com)|
-Farhang Dehzad | Product Management/ Research | [linkedin](www.linkedin.com/in/farhangdehzad),  [github](www.github.com/farhang87), [email](farhang87@gmail.com) |
-David Liu  | Medical Student | [linkedin](www.linkedin.com/in/david-liu-20188443), [github](www.github.com/projectwakii), [email](daliuvr@gmail.com)
-Cheng Chua | Front End | [linkedin](www.linkedin.com/in/chuaccheng), [github](www.github.com/chuaccheng), [email](hello@chuaccheng.com) |
-Christopher Lee | Full Stack | [linkedin](www.linkedin.com/in/hanernlee), [github](www.github.com/hanernlee), [email](hanernlee@gmail.com) |
-Keith Chong | Full Stack | [linkedin](www.linkedin.com/in/keitheous), [github](www.github.com/keitheous), [email](keithchongwy@gmail.com) |
+Hui Min Yau | Marketing Strategy / Research Lead | [linkedin](https://www.linkedin.com/in/huiminthehappy), [email](huiminthehappy@gmail.com)|
+Jessica Wu | Market Feasibility/ Research | [linkedin](https://www.linkedin.com/in/jeswu), [email](jjgqwu@gmail.com)|
+Farhang Dehzad | Product Management/ Research | [linkedin](https://www.linkedin.com/in/farhangdehzad),  [github](https://www.github.com/farhang87), [email](farhang87@gmail.com) |
+David Liu  | Medical Student / Research | [linkedin](https://www.linkedin.com/in/david-liu-20188443), [github](https://www.github.com/projectwakii), [email](daliuvr@gmail.com)
+Cheng Chua | Front End | [linkedin](https://www.linkedin.com/in/chuaccheng), [github](https://www.github.com/chuaccheng), [email](hello@chuaccheng.com) |
+Christopher Lee | Full Stack | [linkedin](https://www.linkedin.com/in/hanernlee), [github](https://www.github.com/hanernlee), [email](hanernlee@gmail.com) |
+Keith Chong | Full Stack | [linkedin](https://www.linkedin.com/in/keitheous), [github](https://www.github.com/keitheous), [email](keithchongwy@gmail.com) |
 
 ---
 
