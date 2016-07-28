@@ -16,18 +16,6 @@ This is an ode to dyslexia.
 
 ---
 
-## Technologies
-include:
-* SCSS
-* JQuery
-* HTML / CSS
-* Ruby on Rails (bcrypt & nokogiri gem)
-* JavaScript
-* Materialise
-* AJAX
-* Postgresql
-
-
 # Techncal Stand Point (MVP)
 * Users can sign up and log in. A secure password is assigned using bcrypt.
 * Upon signing up, users are taken through a series of questionnaire to pick their preferences in background color, text color, font type, font size, line length and line spacing, which will be saved to User Presets.
@@ -43,18 +31,29 @@ include:
 
 * When a user enters a url into the search bar, the Nokogiri Gem scraps the raw data (HTML) off the page. The presets stored in the form of CSS is then implemented onto this HTML page and is rendered for simplicity.
 
+## Technologies
+include:
+* SCSS
+* JQuery
+* HTML / CSS
+* Ruby on Rails (bcrypt & nokogiri gem)
+* JavaScript
+* Materialise
+* AJAX
+* Postgresql
 
 
-## Team Members
+
+# Team Members
 Name | Role | Profiles
 ---|---|---|---
-Hui Min Yau | Marketing Strategy / Research Lead | [linkedin](linkedin.com/in/huiminthehappy)|
-Jessica Wu | Market Feasibility/ Research | [linkedin](linkedin.com/in/jeswu)|
-Farhang Dehzad | Product Management/ Research | [linkedin](linkedin.com/in/farhangdehzad),  [github](github.com/farhang87)
-David Liu  | Medical Student | [linkedin](linkedin.com/in/david-liu-20188443), [github](github.com/projectwakii)
-Cheng Chua | Front End | [linkedin](linkedin.com/in/chuaccheng), [github](github.com/chuaccheng)
-Christopher Lee | Full Stack | [linkedin](linkedin.com/in/hanernlee), [github](github.com/hanernlee)
-Keith Chong | Full Stack | [linkedin](linkedin.com/in/keitheous), [github](github.com/keitheous)
+Hui Min Yau | Marketing Strategy / Research Lead | [linkedin](linkedin.com/in/huiminthehappy), [email](huiminthehappy@gmail.com)|
+Jessica Wu | Market Feasibility/ Research | [linkedin](linkedin.com/in/jeswu), [email](jjgqwu@gmail.com)|
+Farhang Dehzad | Product Management/ Research | [linkedin](linkedin.com/in/farhangdehzad),  [github](github.com/farhang87), [email](farhang87@gmail.com) |
+David Liu  | Medical Student | [linkedin](linkedin.com/in/david-liu-20188443), [github](github.com/projectwakii), [email](daliuvr@gmail.com)
+Cheng Chua | Front End | [linkedin](linkedin.com/in/chuaccheng), [github](github.com/chuaccheng), [email](hello@chuaccheng.com) |
+Christopher Lee | Full Stack | [linkedin](linkedin.com/in/hanernlee), [github](github.com/hanernlee), [email](hanernlee@gmail.com) |
+Keith Chong | Full Stack | [linkedin](linkedin.com/in/keitheous), [github](github.com/keitheous), [email](keithchongwy@gmail.com) |
 
 ---
 
