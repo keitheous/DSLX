@@ -1,0 +1,17 @@
+<% if current_user.fontcolor == "#6B3434" %>
+  <div id="brown">
+    <%= render partial: "linespace" %>
+  </div>
+<% elsif current_user.fontcolor == "#0022C9" %>
+  <div id="navy">
+    <%= render partial: "linespace" %>
+  </div>
+<% elsif current_user.fontcolor == "#1D6B00" %>
+  <div id="lightg">
+    <%= render partial: "linespace" %>
+  </div>
+<% else %>
+  <div id="black">
+    <%= render partial: "linespace" %>
+  </div>
+<% end %>

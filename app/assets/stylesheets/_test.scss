@@ -12,10 +12,6 @@ span.formtext {
   padding:0;
 }
 
-.selected {
-  border-color:black;
-}
-
 #font-size, #font-type, #font-color, #line-space, #text-space, #buttons {
   display:none;
 }
@@ -64,6 +60,15 @@ span.formtext {
   }
 }
 
+.ts {
+  p {
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
 #green {
   background-color: #E9FFC2;
 }
@@ -96,20 +101,20 @@ span.formtext {
   color:black;
 }
 
-#medium {
-  font-size:medium;
+#small {
+  font-size:small;
 }
 
-#larger {
-  font-size:larger;
+#medium {
+  font-size:medium;
 }
 
 #x-large {
   font-size: x-large;
 }
 
-#xx-large {
-  font-size: xx-large;
+#large {
+  font-size:large;
 }
 
 #OpenDyslexic {
@@ -129,15 +134,15 @@ span.formtext {
 }
 
 #medium-line {
-  line-height: 2;
+  line-height: 1.5;
 }
 
 #large-line {
-  line-height: 3;
+  line-height: 2;
 }
 
 #x-large-line {
-  line-height: 4;
+  line-height: 2.5;
 }
 
 #small-text {
@@ -145,15 +150,15 @@ span.formtext {
 }
 
 #medium-text {
-  letter-spacing:4px;
+  letter-spacing:3px;
 }
 
 #large-text {
-  letter-spacing:6px;
+  letter-spacing:4px;
 }
 
 #x-large-text {
-  letter-spacing:8px;
+  letter-spacing:5px;
 }
 
 .thankyou {
@@ -170,4 +175,8 @@ span.download {
   font-size: 20px;
   margin-top: 2px;
   font-family: OpenDyslexic;
+}
+
+.content-page {
+  height: 100vh;
 }

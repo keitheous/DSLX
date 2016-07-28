@@ -1,0 +1,17 @@
+<% if current_user.fonttype == "OpenDyslexic" %>
+  <div id="OpenDyslexic">
+    <%= render partial: "fontsize" %>
+  </div>
+<% elsif current_user.fonttype == "cursive" %>
+  <div id="cursive">
+    <%= render partial: "fontsize" %>
+  </div>
+<% elsif current_user.fonttype == "times" %>
+  <div id="times">
+    <%= render partial: "fontsize" %>
+  </div>
+<% else %>
+  <div>
+    <%= render partial: "fontsize" %>
+  </div>
+<% end %>
