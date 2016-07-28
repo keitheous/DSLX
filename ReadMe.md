@@ -45,7 +45,7 @@ include:
 
 
 # Team Members
-Name | Role | Profiles
+Name | Role | Contacts
 ---|---|---|---
 Hui Min Yau | Marketing Strategy / Research Lead | [linkedin](https://www.linkedin.com/in/huiminthehappy), [email](huiminthehappy@gmail.com)|
 Jessica Wu | Market Feasibility/ Research | [linkedin](https://www.linkedin.com/in/jeswu), [email](jjgqwu@gmail.com)|
