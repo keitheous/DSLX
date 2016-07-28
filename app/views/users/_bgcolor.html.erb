@@ -1,0 +1,25 @@
+<% if current_user.bgcolor == '#E9FFC2'%>
+  <div class="content-page" id="green">
+    <div id="converted">
+      <%= render partial: "fonttype" %>
+    </div>
+  </div>
+<% elsif current_user.bgcolor == "#CAF4FF" %>
+  <div class="content-page" id="blue">
+    <div id="converted">
+      <%= render partial: "fonttype" %>
+    </div>
+  </div>
+<% elsif current_user.bgcolor == "#FFFCD4" %>
+  <div class="content-page" id="yellow">
+    <div id="converted">
+      <%= render partial: "fonttype" %>
+    </div>
+  </div>
+<% else%>
+  <div class="content-page" id="pink">
+    <div id="converted">
+      <%= render partial: "fonttype" %>
+    </div>
+  </div>
+<% end %>

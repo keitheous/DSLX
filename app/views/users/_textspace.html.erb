@@ -1,0 +1,21 @@
+<% if current_user.textspace == "4px" %>
+  <div id="small-text">
+    <p> <%= @header %> <p>
+    <%= @content %>
+  </div>
+<% elsif current_user.textspace == "3px" %>
+  <div id="medium-text">
+    <p> <%= @header %> <p>
+    <%= @content %>
+  </div>
+<% elsif current_user.textspace == "2px" %>
+  <div id="large-text">
+    <p> <%= @header %> <p>
+    <%= @content %>
+  </div>
+<% elsif current_user.textspace == "1px" %>
+  <div id="x-large-text">
+    <p> <%= @header %> <p>
+    <%= @content %>
+  </div>
+<% end %>

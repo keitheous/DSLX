@@ -13,12 +13,15 @@ class UsersController < ApplicationController
     @user.surname = params[:lastname]
     @user.email = params[:email]
     @user.password = params[:password]
-    @user.bgcolor = params[:bgcolor]
-    if @user.save
-      session[:user_id] = @user.id
-      redirect_to '/users'
+    if User.exists?(email: params[:email])
+     redirect_to '/'
     else
-      redirect_to '/'
+      if @user.save
+        session[:user_id] = @user.id
+        redirect_to '/users'
+      else
+        redirect_to '/'
+      end
     end
   end
 
@@ -39,6 +42,11 @@ class UsersController < ApplicationController
   def test
     @user = User.find_by(id: session[:user_id])
     @user.bgcolor = params[:bgcolor]
+    @user.fonttype = params[:fonttype]
+    @user.fontcolor = params[:fontcolor]
+    @user.linespace = params[:linespace]
+    @user.textspace = params[:textspace]
+    @user.fontsize = params[:fontsize]
     if @user.save
       render json: @user.to_json
     end

@@ -1,88 +1,87 @@
 <% if logged_in? %>
-<div class="opendysfont">
-  <nav>
-    <div class="nav-wrapper">
-      <ul class="right">
-        <li><a href="/users/search"><i class="material-icons left">search</i>Search</a></li>
-        <li><a href="/logout"><i class="material-icons left">exit_to_app</i>Logout</a></li>
-      </ul>
-    </div>
-  </nav>
-</div>
-
-
-  <div class="container">
-    <br>
-    <span class="formtext">
-    <p id="pref">Please select your preferences</p></span>
-
-    <div id="color-bg" class="row">
-        <span class="formtext"> <p> 1.Pick a colour</p> </span>
-       <div class="col s6 boxes bg" id="pink"></div>
-       <div class="col s6 boxes bg" id="green"></div>
-       <div class="col s6 boxes bg" id="blue"></div>
-       <div class="col s6 boxes bg" id="yellow"></div>
-    </div>
-
-    <div id="font-size" class="row">
-    <span class="formtext">  <p> 2.Pick a font size</p> </span>
-      <div class="col s6 boxes fs" id="medium"><p>Small</p></div>
-      <div class="col s6 boxes fs" id="larger"><p>Medium</p></div>
-      <div class="col s6 boxes fs" id="x-large"><p>Large</p></div>
-      <div class="col s6 boxes fs" id="xx-large"><p>X-Large</p></div>
-   </div>
-
-     <div id="font-type" class="row">
-       <span class="formtext"><p> 3.Pick a font type</p></span>
-       <div class="col s6 boxes ft" id="OpenDyslexic"><p>OpenDyslexic</p></div>
-       <div class="col s6 boxes ft" id="cursive"><p>Helvetica</p></div>
-       <div class="col s6 boxes ft" id="times"><p>Arial</p></div>
-       <div class="col s6 boxes ft" id="verdana"><p>Verdana</p></div>
-    </div>
-
-    <div id="font-color" class="row">
-    <span class="formtext">  <p> 4.Please pick a font colour</p> </span>
-      <div class="col s6 boxes fc" id="brown"><p>Brown</p></div>
-      <div class="col s6 boxes fc" id="lightg"><p>Green</p></div>
-      <div class="col s6 boxes fc" id="navy"><p>Navy</p></div>
-      <div class="col s6 boxes fc" id="black"><p>Black</p></div>
-    </div>
-
-    <div id="line-space" class="row">
-    <span class="formtext"><p> 5.Please pick a line-spacing </p> </span>
-       <div class="col s6 boxes ls" id="small-line"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
-       <div class="col s6 boxes ls" id="medium-line"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
-       <div class="col s6 boxes ls" id="large-line"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
-       <div class="col s6 boxes ls" id="x-large-line"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
-   </div>
-
-   <div id="text-space" class="row">
-     <span class="formtext"><p> 6.Please pick a text-spacing</p></span>
-      <div class="col s6 boxes ts" id="small-text">The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</div>
-      <div class="col s6 boxes ts" id="medium-text">The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</div>
-      <div class="col s6 boxes ts" id="large-text">The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</div>
-      <div class="col s6 boxes ts" id="x-large-text">The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</div>
+  <div class="opendysfont">
+    <nav>
+      <div class="nav-wrapper">
+        <ul class="right">
+          <li><a href="/users"><i class="material-icons left">face</i>Preferences</a></li>
+          <li><a href="/logout"><i class="material-icons left">exit_to_app</i>Logout</a></li>
+        </ul>
+      </div>
+    </nav>
   </div>
 
-  <div id="buttons">
-    <center>
-      <span class="thanks"> Thank You, <%= current_user.firstname %>!
-      <p> Your preferences have been saved! </p></span>
-    <div class="thankyou">
-    <%= link_to image_tag("heart.png") %>
-  </div>
-<span class="download">Click to start downloading the plug-in!<br>
-<br>
-<a class="waves-effect waves-light btn-large blue"><i class="material-icons left">file_download</i>Add to Google Chrome</a></span>
 
-  </span>
-  </center>
+    <div class="container">
+      <br>
+      <span class="formtext">
+      <p id="pref">Please select your preferences</p></span>
+
+      <div id="color-bg" class="row">
+          <span class="formtext"> <p> 1.Pick a colour</p> </span>
+         <div class="col s6 boxes bg" id="pink"></div>
+         <div class="col s6 boxes bg" id="green"></div>
+         <div class="col s6 boxes bg" id="blue"></div>
+         <div class="col s6 boxes bg" id="yellow"></div>
+      </div>
+
+      <div id="font-size" class="row">
+      <span class="formtext">  <p> 2.Pick a font size</p> </span>
+        <div class="col s6 boxes fs" id="small"><p>Small</p></div>
+        <div class="col s6 boxes fs" id="medium"><p>Medium</p></div>
+        <div class="col s6 boxes fs" id="large"><p>Large</p></div>
+        <div class="col s6 boxes fs" id="x-large"><p>X-Large</p></div>
+     </div>
+
+       <div id="font-type" class="row">
+         <span class="formtext"><p> 3.Pick a font type</p></span>
+         <div class="col s6 boxes ft" id="OpenDyslexic"><p>OpenDyslexic</p></div>
+         <div class="col s6 boxes ft" id="cursive"><p>Helvetica</p></div>
+         <div class="col s6 boxes ft" id="times"><p>Arial</p></div>
+         <div class="col s6 boxes ft" id="verdana"><p>Verdana</p></div>
+      </div>
+
+      <div id="font-color" class="row">
+      <span class="formtext">  <p> 4.Please pick a font colour</p> </span>
+        <div class="col s6 boxes fc" id="brown"><p>Brown</p></div>
+        <div class="col s6 boxes fc" id="lightg"><p>Green</p></div>
+        <div class="col s6 boxes fc" id="navy"><p>Navy</p></div>
+        <div class="col s6 boxes fc" id="black"><p>Black</p></div>
+      </div>
+
+      <div id="line-space" class="row">
+      <span class="formtext"><p> 5.Please pick a line-spacing </p> </span>
+         <div class="col s6 boxes ls" id="small-line"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
+         <div class="col s6 boxes ls" id="medium-line"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
+         <div class="col s6 boxes ls" id="large-line"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
+         <div class="col s6 boxes ls" id="x-large-line"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
+     </div>
+
+     <div id="text-space" class="row">
+       <span class="formtext"><p> 6.Please pick a text-spacing</p></span>
+        <div class="col s6 boxes ts" id="small-text"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
+        <div class="col s6 boxes ts" id="medium-text"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
+        <div class="col s6 boxes ts" id="large-text"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
+        <div class="col s6 boxes ts" id="x-large-text"><p>The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</p></div>
     </div>
-</div>
-<br>
 
-
-
+    <div id="buttons">
+      <center>
+        <span class="thanks"> Thank You, <%= current_user.firstname %>!
+        <p> Your preferences have been saved! </p></span>
+        <div class="thankyou">
+          <%= link_to image_tag("heart.png") %>
+        </div>
+        <span class="download">Click to start downloading the plug-in!
+        <br>
+        <br>
+          <a class="waves-effect waves-light btn-large blue"><i class="material-icons left">file_download</i>Add to Google Chrome</a>
+        <br>
+        <br>
+          <a id="submit-btn" class="waves-effect waves-light btn-large blue"><i class="material-icons left">search</i>Start Browsing</a>
+        </span>
+      </center>
+    </div>
+  </div>
 
 <% else %>
 

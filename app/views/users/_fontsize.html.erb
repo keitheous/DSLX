@@ -1,0 +1,17 @@
+<% if current_user.fontsize == "small" %>
+  <div id="small">
+    <%= render partial: "fontcolor" %>
+  </div>
+<% elsif current_user.fontsize == "medium" %>
+  <div id="medium">
+    <%= render partial: "fontcolor" %>
+  </div>
+<% elsif current_user.fontsize == "large" %>
+  <div id="large">
+    <%= render partial: "fontcolor" %>
+  </div>
+<% elsif current_user.fontsize == "x-large" %>
+  <div id="x-large">
+    <%= render partial: "fontcolor" %>
+  </div>
+<% end %>

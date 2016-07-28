@@ -1,5 +1,4 @@
 <% if logged_in? %>
-
   <nav>
     <div class="nav-wrapper">
       <ul class="right">
@@ -9,12 +8,7 @@
     </div>
   </nav>
 
-  <div class="container">
-    <div class="row" id="converted">
-      <h1><%= @header %></h1>
-      <p><%= @content %></p>
-    </div>
-  </div>
+  <%= render partial: "bgcolor" %>
 
 <% else %>
   <h1> Sorry not logged in</h1>
