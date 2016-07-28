@@ -27,7 +27,7 @@ include:
 |---|---|---|---|---|---|---|
 |Attributes| Background Color | Font Type | Text Color | Text Size | Text Spacing | Line Height |
 |---|---|---|---|---|---|---|
-|User's Selection| Green | Verdana | Blue | 150px | 80px | 30px | 55px |
+|User's Selection| Green | Verdana | Blue | 80px | 30px | 55px |
 |---|---|---|---|---|---|---|
 |CSS Implementation | Green | Green, Verdana | Green, Verdana, Blue | Green, Verdana, Blue, 80px | Green, Verdana, Blue, 80px, 30px | Green, Verdana, Blue, 80px, 30px, 55px |
 
