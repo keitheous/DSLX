@@ -22,13 +22,14 @@ include:
 1. Users can sign up and log in. A secure password is assigned using bcrypt.
 2. Upon signing up, users are taken through a series of questionnaire to pick their preferences in background color, text color, font type, font size, line length and line spacing, which will be saved to User Presets.
 3. On the selection progress, CSS changes are implemented to the next question using JQuery, making the questionnaire dynamic and engaging. example:
-Questions| 1 | 2 | 3 | 4 | 5 | 6
----|---|---|---|---|---|
-Attributes| Background Color | Font Type | Text Color | Text Size | Text Spacing | Line Height |
----|---|---|---|---|---|
-User's Selection| Green | Verdana | Blue | 150px | 80px | 30px | 55px |
----|---|---|---|---|---|
-CSS Implementation | Green | Green, Verdana | Green, Verdana, Blue | Green, Verdana, Blue, 150px | Green, Verdana, Blue, 150px, 80px | Green, Verdana, Blue, 150px, 80px, 30px | Green, Verdana, Blue, 150px, 80px, 30px, 55px |
+
+|Questions| 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|
+|Attributes| Background Color | Font Type | Text Color | Text Size | Text Spacing | Line Height |
+|---|---|---|---|---|---|---|
+|User's Selection| Green | Verdana | Blue | 150px | 80px | 30px | 55px |
+|---|---|---|---|---|---|---|
+|CSS Implementation | Green | Green, Verdana | Green, Verdana, Blue | Green, Verdana, Blue, 80px | Green, Verdana, Blue, 80px, 30px | Green, Verdana, Blue, 80px, 30px, 55px |
 
 4. Next, these information is stored into the database using an AJAX call in the form of object. User is notified that the presets are saved.
 
