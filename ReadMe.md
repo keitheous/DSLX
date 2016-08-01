@@ -1,5 +1,5 @@
 # DSLX
-###### Helping Dyslexcis [read](http://geon.github.io/programming/2016/03/03/dsxyliea) with ease
+###### Helping Dyslexics [read](http://geon.github.io/programming/2016/03/03/dsxyliea) with ease
 ---
 ![ScreenShot](app/assets/images/DSLXSS.png)
 In conjunction with HIC2016's Hacking Health (Hackathon), which aimed to mix hackers and unique technical experts with healthcare professionals to solve problems faced by the Medical Industry ,team DSLX embarked upon a journey to build an internet browser extension that reformats web pages so that Dyslexics can read with ease.
