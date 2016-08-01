@@ -20,7 +20,7 @@ This is an ode to dyslexia.
 # Techncal Stand Point (MVP)
 * Users can sign up and log in. A secure password is assigned using bcrypt.
 * Upon signing up, users are taken through a series of questionnaire to pick their preferences in background color, text color, font type, font size, line length and line spacing, which are then saved to User Presets.
-* On the selection progress, CSS changes are implemented to the next question using JQuery, making the questionnaire dynamic as it progresses. example:
+* On the selection progress, CSS changes are implemented to the next question using JQuery, making the questionnaire dynamic as it progresses. For example:
 
 |Questions| 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|
