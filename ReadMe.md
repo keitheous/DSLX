@@ -1,5 +1,5 @@
 # DSLX
-###### helping dyslexcis [read](http://geon.github.io/programming/2016/03/03/dsxyliea) with ease
+###### Helping Dyslexcis [read](http://geon.github.io/programming/2016/03/03/dsxyliea) with ease
 ---
 ![ScreenShot](app/assets/images/DSLXSS.png)
 In conjunction with HIC2016's Hacking Health (Hackathon), which aimed to mix hackers and unique technical experts with healthcare professionals to solve problems faced by the Medical Industry ,team DSLX embarked upon a journey to build an internet browser extension that reformats web pages so that Dyslexics can read with ease.
@@ -30,7 +30,7 @@ This is an ode to dyslexia.
 
 * Next, these information is stored into the PSQL database using an AJAX call in the form of object. User is notified that the presets are saved.
 
-* When a user enters a url into the search bar, the Nokogiri Gem scraps the raw data (HTML) off the page. The presets stored in the form of CSS is then implemented onto this HTML page and is rendered for readability.
+* When a user enters a url into the search bar, the Nokogiri Gem scraps the raw data (HTML) off the page. The presets stored in the form of CSS is then implemented onto this HTML page and is rendered for readability (best sample website to test this at the moment is http://example.com/).
 
 ## Technologies
 include:
